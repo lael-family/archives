@@ -1,0 +1,47 @@
+{
+    "books": [
+        { "name": "All Of Grace", "url": "books/all-of-grace.pdf" }
+,
+        { "name": "Destined To Reign", "url": "books/destined-to-reign.pdf" }
+,
+        { "name": "Health And Wholeness Through The Holy Communion", "url": "books/health-and-wholeness-through-the-holy-communion.pdf" }
+,
+        { "name": "How To Make Your Faith Work", "url": "books/how-to-make-your-faith-work.pdf" }
+,
+        { "name": "Join This Chariot", "url": "books/join-this-chariot.pdf" }
+,
+        { "name": "Live The Let Go Life", "url": "books/live-the-let-go-life.pdf" }
+,
+        { "name": "Now That You Are Born Again", "url": "books/now-that-you-are-born-again.pdf" }
+,
+        { "name": "Power Of Right Believing", "url": "books/power-of-right-believing.pdf" }
+,
+        { "name": "Prophecy", "url": "books/prophecy.pdf" }
+,
+        { "name": "Seven Things The Holy Spirit Will Do For You", "url": "books/seven-things-the-holy-spirit-will-do-for-you.pdf" }
+,
+        { "name": "Seven Things The Holy Spirit Will Do In You", "url": "books/seven-things-the-holy-spirit-will-do-in-you.pdf" }
+,
+        { "name": "The Holy Spirit And You", "url": "books/the-holy-spirit-and-you.pdf" }
+,
+        { "name": "The One Thing", "url": "books/the-one-thing.pdf" }
+,
+        { "name": "The Power Of Your Mind", "url": "books/the-power-of-your-mind.pdf" }
+,
+        { "name": "The Seven Spirits Of God", "url": "books/the-seven-spirits-of-god.pdf" }
+,
+        { "name": "Unmerited Favour", "url": "books/unmerited-favour.pdf" }
+    ],
+    "guides": [
+        { "name": "Individual Excellence", "url": "guides/individual-excellence.pdf" }
+,
+        { "name": "Stress Less Sleep Better", "url": "guides/stress-less-sleep-better.pdf" }
+    ],
+    "images": [
+        { "name": "Desktop Wallpaper", "url": "images/desktop-wallpaper.png" }
+,
+        { "name": "Profile Logo", "url": "images/profile-logo.png" }
+,
+        { "name": "Profile Logo Transparent", "url": "images/profile-logo-transparent.png" }
+    ]
+}
