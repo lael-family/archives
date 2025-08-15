@@ -1,3 +1,45 @@
+// ===== THEME TOGGLE =====
+(function initTheme() {
+  const root = document.documentElement;
+  const btn = document.getElementById('theme-toggle');
+
+  // load saved or system preference
+  const saved = localStorage.getItem('theme'); // 'light' | 'dark' | null
+  if (saved === 'light' || saved === 'dark') {
+    root.setAttribute('data-theme', saved);
+  } else {
+    // no saved choice: let system pref apply (via prefers-color-scheme)
+    root.removeAttribute('data-theme');
+  }
+
+  // set button icon text
+  function refreshIcon() {
+    const isDark =
+      root.getAttribute('data-theme') === 'dark' ||
+      (!root.hasAttribute('data-theme') &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches);
+    btn.textContent = isDark ? '☀️' : '🌙';
+  }
+  refreshIcon();
+
+  btn.addEventListener('click', () => {
+    const current = root.getAttribute('data-theme');
+    const next =
+      current ? (current === 'dark' ? 'light' : 'dark')
+        : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'light' : 'dark');
+    root.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    refreshIcon();
+  });
+
+  // update icon if system theme changes and no manual override
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+    if (!localStorage.getItem('theme')) {
+      root.removeAttribute('data-theme');
+      refreshIcon();
+    }
+  });
+})();
 let fileData = {};
 
 async function loadConfig() {
