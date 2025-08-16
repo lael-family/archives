@@ -43,5 +43,14 @@
         { "name": "Profile Logo", "url": "images/profile-logo.png" }
 ,
         { "name": "Profile Logo Transparent", "url": "images/profile-logo-transparent.png" }
+    ],
+    "music": [
+        { "name": "Glorious God", "url": "music/glorious-god.mp3" }
+,
+        { "name": "I Bless Your Name", "url": "music/i-bless-your-name.mp3" }
+,
+        { "name": "Lord Over All", "url": "music/lord-over-all.mp3" }
+,
+        { "name": "What A Privilege", "url": "music/what-a-privilege.mp3" }
     ]
 }

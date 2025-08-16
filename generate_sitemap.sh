@@ -18,7 +18,7 @@ cat <<EOT >>"$OUTPUT_FILE"
 EOT
 
 # Add each file in books, guides, images
-find books guides images -type f | while read -r file; do
+find books guides images music -type f | while read -r file; do
 	echo "  <url>" >>"$OUTPUT_FILE"
 	echo "    <loc>$BASE_URL/${file}</loc>" >>"$OUTPUT_FILE"
 	echo "    <lastmod>$TODAY</lastmod>" >>"$OUTPUT_FILE"

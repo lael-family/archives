@@ -1,7 +1,7 @@
 #!/bin/bash
 
 OUTPUT_FILE="assets.config.json"
-FOLDERS=("books" "guides" "images") # Folders to include
+FOLDERS=("books" "guides" "images" "music") # Folders to include
 
 echo "{" >"$OUTPUT_FILE"
 

@@ -60,6 +60,8 @@ function getFileIcon(fileName) {
       return "./icons/pdf.png";
     case "png":
       return "./icons/png.png";
+    case "mp3":
+      return "./icons/mp3.png";
     default:
       return "./icons/paper.png";
   }
