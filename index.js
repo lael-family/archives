@@ -62,6 +62,8 @@ function getFileIcon(fileName) {
       return "./icons/png.png";
     case "mp3":
       return "./icons/mp3.png";
+    case "m4a":
+      return "./icons/mp3.png";
     default:
       return "./icons/paper.png";
   }
