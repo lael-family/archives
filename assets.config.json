@@ -40,17 +40,23 @@
     "images": [
         { "name": "Desktop Wallpaper", "url": "images/desktop-wallpaper.png" }
 ,
-        { "name": "Profile Logo", "url": "images/profile-logo.png" }
-,
         { "name": "Profile Logo Transparent", "url": "images/profile-logo-transparent.png" }
+,
+        { "name": "Profile Logo", "url": "images/profile-logo.png" }
     ],
     "music": [
         { "name": "Glorious God", "url": "music/glorious-god.mp3" }
+,
+        { "name": "Helper", "url": "music/helper.m4a" }
 ,
         { "name": "I Bless Your Name", "url": "music/i-bless-your-name.mp3" }
 ,
         { "name": "Lord Over All", "url": "music/lord-over-all.mp3" }
 ,
+        { "name": "Take The Stage", "url": "music/take-the-stage.m4a" }
+,
         { "name": "What A Privilege", "url": "music/what-a-privilege.mp3" }
+,
+        { "name": "You Derserve All", "url": "music/you-derserve-all.m4a" }
     ]
 }
